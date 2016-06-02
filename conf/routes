@@ -1,0 +1,9 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+GET     /get/all-users              controllers.Application.getAllUsers()
+
+POST    /get/coordinates            controllers.Application.getCoordinates()
+POST    /post/coordinates           controllers.Application.postCoordinates()
+POST    /post/duration              controllers.Application.postDuration()
